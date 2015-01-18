@@ -1,0 +1,37 @@
+{
+  "ProjectName": "TouchID Demo",
+  "ProjectGuid": "c5e47cec-3a36-4643-9e79-c0f695ee842f",
+  "projectVersion": 1,
+  "AppIdentifier": "com.telerik.TouchIDDemo",
+  "DisplayName": "TouchID Demo",
+  "Author": "",
+  "Description": "",
+  "BundleVersion": "1.0",
+  "AndroidVersionCode": "1",
+  "iOSDeviceFamily": [
+    "1",
+    "2"
+  ],
+  "iOSBackgroundMode": [],
+  "ProjectTypeGuids": "{070BCB52-5A75-4F8C-A973-144AF0EAFCC9}",
+  "FrameworkVersion": "3.5.0",
+  "AndroidPermissions": [],
+  "DeviceOrientations": [
+    "Portrait",
+    "Landscape"
+  ],
+  "AndroidHardwareAcceleration": "false",
+  "iOSStatusBarStyle": "Default",
+  "Framework": "Cordova",
+  "WP8TileTitle": "",
+  "WP8Publisher": "",
+  "WP8Capabilities": [],
+  "WP8Requirements": [],
+  "WP8PublisherID": "{42376ccd-259c-4c10-9287-c7a12e4b273e}",
+  "WP8ProductID": "{a49dec3b-7c97-427d-9df7-1c0ba861510f}",
+  "WP8SupportedResolutions": [
+    "ID_RESOLUTION_WVGA",
+    "ID_RESOLUTION_WXGA",
+    "ID_RESOLUTION_HD720P"
+  ]
+}
