@@ -2,10 +2,10 @@
   "ProjectName": "TouchID Demo",
   "ProjectGuid": "c5e47cec-3a36-4643-9e79-c0f695ee842f",
   "projectVersion": 1,
-  "AppIdentifier": "com.telerik.TouchIDDemo",
+  "AppIdentifier": "com.telerik.plugindemo.touchid",
   "DisplayName": "TouchID Demo",
-  "Author": "",
-  "Description": "",
+  "Author": "Telerik",
+  "Description": "TouchID Demo",
   "BundleVersion": "1.0",
   "AndroidVersionCode": "1",
   "iOSDeviceFamily": [
@@ -14,7 +14,7 @@
   ],
   "iOSBackgroundMode": [],
   "ProjectTypeGuids": "{070BCB52-5A75-4F8C-A973-144AF0EAFCC9}",
-  "FrameworkVersion": "3.5.0",
+  "FrameworkVersion": "3.7.0",
   "AndroidPermissions": [],
   "DeviceOrientations": [
     "Portrait",
@@ -33,5 +33,11 @@
     "ID_RESOLUTION_WVGA",
     "ID_RESOLUTION_WXGA",
     "ID_RESOLUTION_HD720P"
+  ],
+  "CorePlugins": [
+    "org.apache.cordova.console",
+    "org.apache.cordova.device",
+    "org.apache.cordova.splashscreen",
+    "org.apache.cordova.statusbar"
   ]
 }
