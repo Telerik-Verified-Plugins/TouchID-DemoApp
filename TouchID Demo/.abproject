@@ -35,9 +35,13 @@
     "ID_RESOLUTION_HD720P"
   ],
   "CorePlugins": [
+    "com.telerik.feedback",
+    "nl.x-services.plugins.touchid@2.0.1",
     "org.apache.cordova.console",
     "org.apache.cordova.device",
     "org.apache.cordova.splashscreen",
     "org.apache.cordova.statusbar"
-  ]
+  ],
+  "WP8WindowsPublisherName": "CN=Telerik",
+  "WP8PackageIdentityName": "1234Telerik.com.telerik.plugindemo.touchid"
 }
