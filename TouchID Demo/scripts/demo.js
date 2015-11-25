@@ -41,10 +41,11 @@
 
         authenticateWithCustomPasswordFallback: function () {
           if (!this.checkSimulator()) {
-            window.plugins.touchid.verifyFingerprintWithCustomPasswordFallback (
+            window.plugins.touchid.verifyFingerprintWithCustomPasswordFallbackAndEnterPasswordLabel(
               // The prompt shown in the fingerprint window
               'Scan your fingerprint to log in',
-
+              // This is the label of the 'Enter password' button in case the finger was not recognized
+              'Password entry',
               // success callback
               function(msg) {
                 alert('Verification success!');

@@ -6,7 +6,7 @@
   "DisplayName": "TouchID Demo",
   "Author": "Telerik",
   "Description": "TouchID Demo",
-  "BundleVersion": "1.0",
+  "BundleVersion": "1.1.0",
   "AndroidVersionCode": "1",
   "iOSDeviceFamily": [
     "1",
@@ -14,7 +14,7 @@
   ],
   "iOSBackgroundMode": [],
   "ProjectTypeGuids": "{070BCB52-5A75-4F8C-A973-144AF0EAFCC9}",
-  "FrameworkVersion": "3.7.0",
+  "FrameworkVersion": "3.8.0",
   "AndroidPermissions": [],
   "DeviceOrientations": [
     "Portrait",
@@ -36,11 +36,11 @@
   ],
   "CorePlugins": [
     "com.telerik.feedback",
-    "nl.x-services.plugins.touchid@3.1.0",
     "org.apache.cordova.console",
     "org.apache.cordova.device",
     "org.apache.cordova.splashscreen",
-    "org.apache.cordova.statusbar"
+    "org.apache.cordova.statusbar",
+    "nl.x-services.plugins.touchid@3.1.0"
   ],
   "WP8WindowsPublisherName": "CN=Telerik",
   "WP8PackageIdentityName": "1234Telerik.com.telerik.plugindemo.touchid"
