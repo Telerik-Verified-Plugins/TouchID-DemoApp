@@ -14,13 +14,13 @@
   ],
   "iOSBackgroundMode": [],
   "ProjectTypeGuids": "{070BCB52-5A75-4F8C-A973-144AF0EAFCC9}",
-  "FrameworkVersion": "3.8.0",
+  "FrameworkVersion": "4.0.0",
   "AndroidPermissions": [],
   "DeviceOrientations": [
     "Portrait",
     "Landscape"
   ],
-  "AndroidHardwareAcceleration": "false",
+  "AndroidHardwareAcceleration": "True",
   "iOSStatusBarStyle": "Default",
   "Framework": "Cordova",
   "WP8TileTitle": "",
@@ -35,12 +35,12 @@
     "ID_RESOLUTION_HD720P"
   ],
   "CorePlugins": [
-    "com.telerik.feedback",
-    "org.apache.cordova.console",
-    "org.apache.cordova.device",
-    "org.apache.cordova.splashscreen",
-    "org.apache.cordova.statusbar",
-    "nl.x-services.plugins.touchid@3.1.0"
+    "cordova-plugin-console",
+    "cordova-plugin-device",
+    "cordova-plugin-splashscreen",
+    "cordova-plugin-statusbar",
+    "cordova-plugin-whitelist",
+    "nl.x-services.plugins.touchid@3.2.0"
   ],
   "WP8WindowsPublisherName": "CN=Telerik",
   "WP8PackageIdentityName": "1234Telerik.com.telerik.plugindemo.touchid"

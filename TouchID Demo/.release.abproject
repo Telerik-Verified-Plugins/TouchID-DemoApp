@@ -1,11 +1,11 @@
 {
   "CordovaPluginVariables": {},
   "CorePlugins": [
-    "com.telerik.feedback",
-    "org.apache.cordova.console",
-    "org.apache.cordova.device",
-    "org.apache.cordova.splashscreen",
-    "org.apache.cordova.statusbar",
-    "nl.x-services.plugins.touchid@3.1.0"
+    "cordova-plugin-console",
+    "cordova-plugin-device",
+    "cordova-plugin-splashscreen",
+    "cordova-plugin-statusbar",
+    "cordova-plugin-whitelist",
+    "nl.x-services.plugins.touchid@3.2.0"
   ]
 }
